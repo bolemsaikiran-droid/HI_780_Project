@@ -18,7 +18,7 @@ st.write("Drug Count:", row['avg_drug_count'])
  
 st.write("### Model Explanation") 
 st.write(row.get('llm_explanation', 'Not generated')) 
-[optional/bonus]LANGCHAIN EXPLANATION LAYER 
+## [optional/bonus]LANGCHAIN EXPLANATION LAYER 
 from langchain.chat_models import ChatOpenAI 
 from langchain.prompts import PromptTemplate 
  
